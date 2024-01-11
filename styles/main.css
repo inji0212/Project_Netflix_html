@@ -1,0 +1,37 @@
+
+
+body{
+    background-color: black;
+}
+.movies{
+    color: white;
+    margin-left: -5px;
+}
+
+.movies h2 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.poster{
+    width: 100%;
+    object-fit: contain;
+    max-height: 200px;
+    margin-right: 10px;
+    transition: transform 400ms;
+}
+.posters{
+    display: flex;
+    overflow-y:hidden ;
+    overflow-x: hidden;
+    padding: 20px;
+}
+
+.poster:hover{
+    transform: scale(1.5);
+}
+
